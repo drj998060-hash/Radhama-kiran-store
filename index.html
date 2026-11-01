@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Radhama Kirana and Fancy Store</title>
+
+<style>
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f7f7f7;
+    color:#222;
+    line-height:1.6;
+}
+
+header{
+    background:linear-gradient(135deg,#7b1fa2,#e91e63);
+    color:white;
+    padding:35px 20px;
+    text-align:center;
+}
+
+header h1{
+    font-size:30px;
+    margin-bottom:8px;
+}
+
+header p{
+    font-size:17px;
+}
+
+.buttons{
+    margin-top:20px;
+    display:flex;
+    justify-content:center;
+    gap:12px;
+    flex-wrap:wrap;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 22px;
+    border-radius:25px;
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    background:#25d366;
+}
+
+.call{
+    background:#1976d2;
+}
+
+section{
+    max-width:1100px;
+    margin:auto;
+    padding:35px 18px;
+}
+
+.title{
+    text-align:center;
+    margin-bottom:25px;
+    color:#7b1fa2;
+    font-size:27px;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:18px;
+}
+
+.card{
+    background:white;
+    padding:25px 18px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 3px 12px rgba(0,0,0,0.10);
+}
+
+.icon{
+    font-size:48px;
+    margin-bottom:10px;
+}
+
+.card h3{
+    color:#e91e63;
+    margin-bottom:7px;
+}
+
+.about{
+    background:white;
+    border-radius:15px;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 3px 12px rgba(0,0,0,0.08);
+}
+
+.contact{
+    background:#fff3f8;
+}
+
+.contact-box{
+    text-align:center;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 3px 12px rgba(0,0,0,0.08);
+}
+
+.contact-box p{
+    margin:10px 0;
+    font-size:16px;
+}
+
+.map{
+    display:inline-block;
+    margin-top:15px;
+    background:#e53935;
+    color:white;
+    text-decoration:none;
+    padding:12px 22px;
+    border-radius:25px;
+    font-weight:bold;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:22px 15px;
+    margin-top:20px;
+}
+
+.telugu{
+    margin-top:8px;
+    font-size:16px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Radhama Kirana and Fancy Store</h1>
+    <p>Everything You Need, All in One Place</p>
+    <p class="telugu">మీ కుటుంబానికి అవసరమైన అన్ని వస్తువులు ఒకే చోట</p>
+
+    <div class="buttons">
+        <a class="btn call" href="tel:9980605341">📞 Call Now</a>
+        <a class="btn" href="https://wa.me/919980605341" target="_blank">
+            💬 WhatsApp
+        </a>
+    </div>
+</header>
+
+<section>
+    <h2 class="title">Our Products</h2>
+
+    <div class="products">
+
+        <div class="card">
+            <div class="icon">🛒</div>
+            <h3>Groceries</h3>
+            <p>Daily household grocery items and essentials.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🍪</div>
+            <h3>Biscuits & Candies</h3>
+            <p>Biscuits, chocolates, candies and confectionery items.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">👗</div>
+            <h3>Sarees & Blouses</h3>
+            <p>Ladies sarees, blouses and clothing items.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🥬</div>
+            <h3>Vegetables</h3>
+            <p>Fresh vegetables for your daily needs.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🥤</div>
+            <h3>Cool Drinks</h3>
+            <p>Refreshing cool drinks and beverages.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">✨</div>
+            <h3>1 Gram Gold</h3>
+            <p>Beautiful 1 gram gold jewellery items.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">👕</div>
+            <h3>Clothes</h3>
+            <p>Clothing items for your family.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🍬</div>
+            <h3>Fancy Items</h3>
+            <p>Useful fancy and household items.</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2 class="title">About Our Store</h2>
+
+    <div class="about">
+        <p>
+            Welcome to <b>Radhama Kirana and Fancy Store</b>.
+            We provide groceries, vegetables, biscuits, candies,
+            cool drinks, clothes, sarees, blouses, fancy items
+            and 1 gram gold products.
+        </p>
+
+        <p class="telugu">
+            మీ రోజువారీ అవసరాలకు కావాల్సిన వస్తువులు
+            సరసమైన ధరల్లో మా స్టోర్‌లో అందుబాటులో ఉంటాయి.
+        </p>
+    </div>
+</section>
+
+<section class="contact">
+    <h2 class="title">Contact Us</h2>
+
+    <div class="contact-box">
+
+        <p>📞 <b>9980605341</b></p>
+        <p>📞 <b>7036308873</b></p>
+
+        <p>
+            📍 1/153K BC Colony,<br>
+            Kadithota Village,<br>
+            Adoni Mandalam & Taluk,<br>
+            Kurnool District,<br>
+            Andhra Pradesh - 518302, India
+        </p>
+
+        <a class="map"
+           href="https://www.google.com/maps/search/?api=1&query=Radhama+Kirana+and+Fancy+Store+Kadithota+Adoni+Kurnool+Andhra+Pradesh+518302"
+           target="_blank">
+            📍 Open in Google Maps
+        </a>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Radhama Kirana and Fancy Store</p>
+    <p>Thank you for visiting us ❤️</p>
+</footer>
+
+</body>
+</html>
